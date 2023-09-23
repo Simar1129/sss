@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conatiner{
+    max-width: 900px;
+    margin: auto;
+}
+.apply_box{
+  min-width: 600px;
+  height: 1500px;
+    padding: 10px 20px;
+    background: linear-gradient(45deg , dodgerblue , white, purple);
+    margin: 0 auto;
+    margin-top: 55px;
+box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.5);
+border-radius: 11px;
+}
+label{
+    width: 300px;
+    display: inline-block;
+    margin: 0.1cm;
+    margin-bottom: 4px;
+    font-size: 22px;
+}
+.button_container{
+    font-size: 23px;
+    text-align: center;
+   
+    margin-left: 0 auto;
+}
+input,
+select,
+textarea{
+    padding: 6px 10px;
+    border:1px solid greenyellow;
+    border-radius: 3px;
+    font-size: 14;
+}
+input:focus{
+    outline-color: red;
+}
+textarea:focus{
+    outline-color: rebeccapurple;
+}
+button{
+    background-color:red;
+color:black;
+font-size:17px;
+transition: 0.3s ease-in-out;
+    
+}
+button:hover{
+    background-color:pink;
+    border: 2px solid greenyellow;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
